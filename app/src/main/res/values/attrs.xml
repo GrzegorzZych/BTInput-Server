@@ -9,8 +9,5 @@
         <attr name="metaButtonBarButtonStyle" format="reference" />
     </declare-styleable>
 
-    <declare-styleable name="KeyboardButton">
-        <attr name="codes" format="integer"/>
-    </declare-styleable>
 
 </resources>
