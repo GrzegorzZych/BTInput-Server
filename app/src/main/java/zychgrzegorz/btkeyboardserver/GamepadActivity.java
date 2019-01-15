@@ -14,7 +14,7 @@ public class GamepadActivity extends Activity {
     private float leftStartX,rightStartY,leftStartY,rightStartX;
     private float leftStickX=0,leftStickY=0,rightStickX=0,rightStickY=0;
 
-    public void setPressedButtons(Integer pressedButtons) {
+    private void setPressedButtons(Integer pressedButtons) {
         this.pressedButtons = pressedButtons;
         ConnectActivity.getThisActivity().changeCharacteristicValue(
                 ConnectActivity.GAMEPAD_CHARACTERISTICS_UUIDS.Buttons,

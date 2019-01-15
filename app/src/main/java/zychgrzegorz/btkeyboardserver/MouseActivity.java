@@ -50,7 +50,6 @@ public class MouseActivity extends Activity {
                         setDeltaX(0);
                         setDeltaY(0);
                         break;
-
                 }
                 return false;
             }
